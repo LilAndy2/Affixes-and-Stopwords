@@ -13,7 +13,21 @@ public class Main {
         return affixes;
     }
 
-    public static void main(String[] args) {
+    private static ArrayList<StopWord> importStopWords() throws IOException {
+        ArrayList<StopWord> stopWords = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader("utils/stopwords.txt"));
+        String line;
+        while ((line = br.readLine()) != null) {
+            String[] info = line.split("#");
 
+        }
+        return stopWords;
+    }
+
+    public static void main(String[] args) throws IOException {
+        ArrayList<Affix> affixes = Main.importAffixes();
+        ArrayList<StopWord> stopWords = Main.importStopWords();
+
+        MyPage frame = new MyPage();
     }
 }
