@@ -1,5 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import static helpers.Constants.Colors.BUTTON_BACKGROUND;
+import static helpers.Constants.Colors.BUTTON_BORDER;
 
 public class MyPage {
     ////////////////////////////// ATTRIBUTES //////////////////////////////
@@ -22,7 +27,6 @@ public class MyPage {
         this.frame.add(this.logoPanel, BorderLayout.NORTH);
         this.frame.add(this.titlePanel, BorderLayout.CENTER);
         this.frame.add(this.buttonPanel, BorderLayout.SOUTH);
-
 
         this.frame.setVisible(true);
     }
@@ -103,12 +107,13 @@ public class MyPage {
 
     private JButton createCustomButton(String text) {
         JButton button = new JButton(text);
-        button.setBackground(new Color(138,140,193));
+        button.setBackground(BUTTON_BACKGROUND);
         button.setForeground(Color.BLACK);
-        button.setBorder(BorderFactory.createLineBorder(new Color(109,112,178), 5));
+        button.setBorder(BorderFactory.createLineBorder(BUTTON_BORDER, 5));
         button.setFocusPainted(false);
 
         return button;
     }
+
     ////////////////////////////// ADDITIONAL METHODS //////////////////////////////
 }

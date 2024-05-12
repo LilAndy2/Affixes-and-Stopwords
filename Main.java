@@ -29,5 +29,15 @@ public class Main {
         ArrayList<StopWord> stopWords = Main.importStopWords();
 
         MyPage frame = new MyPage();
+
+        frame.getAffixButton().addActionListener(e -> {
+        });
+
+        frame.getStopWordButton().addActionListener(e -> {
+        });
+
+        frame.getInstructionsButton().addActionListener(e -> {
+            
+        });
     }
 }
