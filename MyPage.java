@@ -6,6 +6,7 @@ public class MyPage {
     private MyFrame frame;
     private JPanel titlePanel;
     private JPanel logoPanel;
+    private JPanel buttonPanel;
     private JButton affixButton;
     private JButton stopWordButton;
     private JButton instructionsButton;
@@ -15,10 +16,13 @@ public class MyPage {
     public MyPage() {
         this.initTitlePanel();
         this.initLogoPanel();
+        this.initButtonsPanel();
         this.initFrame();
 
         this.frame.add(this.logoPanel, BorderLayout.NORTH);
         this.frame.add(this.titlePanel, BorderLayout.CENTER);
+        this.frame.add(this.buttonPanel, BorderLayout.SOUTH);
+
 
         this.frame.setVisible(true);
     }
@@ -33,6 +37,15 @@ public class MyPage {
     }
     public JPanel getTitlePanel() {
         return titlePanel;
+    }
+    public JButton getAffixButton() {
+        return affixButton;
+    }
+    public JButton getStopWordButton() {
+        return stopWordButton;
+    }
+    public JButton getInstructionsButton() {
+        return instructionsButton;
     }
     ////////////////////////////// GETTERS //////////////////////////////
 
@@ -71,6 +84,31 @@ public class MyPage {
         this.logoPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 100, 0));
 
         this.logoPanel.add(logoLabel);
+    }
+
+    private void initButtonsPanel() {
+        this.buttonPanel = new JPanel();
+        this.buttonPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 100, 50));
+        this.buttonPanel.setOpaque(false);
+        this.buttonPanel.setVisible(true);
+
+        this.affixButton = createCustomButton("<html><div style='font-size: 30pt;'>Affixes</div></html>");
+        this.stopWordButton = createCustomButton("<html><div style='font-size: 30pt;'>Stopwords</div></html>");
+        this.instructionsButton = createCustomButton("<html><div style='font-size: 30pt;'>Instructions</div></html>");
+
+        this.buttonPanel.add(this.affixButton);
+        this.buttonPanel.add(this.stopWordButton);
+        this.buttonPanel.add(this.instructionsButton);
+    }
+
+    private JButton createCustomButton(String text) {
+        JButton button = new JButton(text);
+        button.setBackground(new Color(138,140,193));
+        button.setForeground(Color.BLACK);
+        button.setBorder(BorderFactory.createLineBorder(new Color(109,112,178), 5));
+        button.setFocusPainted(false);
+
+        return button;
     }
     ////////////////////////////// ADDITIONAL METHODS //////////////////////////////
 }
