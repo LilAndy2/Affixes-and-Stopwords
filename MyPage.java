@@ -26,6 +26,7 @@ public class MyPage {
 
         this.frame.add(this.logoPanel, BorderLayout.NORTH);
         this.frame.add(this.titlePanel, BorderLayout.CENTER);
+        //this.frame.add(this.sidePanel, BorderLayout.WEST);
         this.frame.add(this.buttonPanel, BorderLayout.SOUTH);
 
         this.frame.setVisible(true);
@@ -56,6 +57,16 @@ public class MyPage {
     ////////////////////////////// ADDITIONAL METHODS //////////////////////////////
     private void initFrame() {
         this.frame = new MyFrame();
+//        this.frame.setSize(1800, 960);
+//        this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        this.frame.setVisible(true);
+//        this.frame.setLocationRelativeTo(null);
+//        this.frame.setResizable(false);
+//        this.frame.setTitle("Affixes and Stopwords");
+//        this.frame.setLayout(null);
+//
+//        ImageIcon image = new ImageIcon("utils/images/logo.jpg");
+//        this.frame.setIconImage(image.getImage());
     }
 
     private void initTitlePanel() {
@@ -86,6 +97,8 @@ public class MyPage {
         this.logoPanel.setOpaque(false);
         this.logoPanel.setVisible(true);
         this.logoPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 100, 0));
+        this.logoPanel.setBounds(110,0,400,200);
+        this.logoPanel.setBackground(Color.WHITE);
 
         this.logoPanel.add(logoLabel);
     }

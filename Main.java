@@ -7,8 +7,9 @@ public class Main {
         BufferedReader br = new BufferedReader(new FileReader("utils/affixes.txt"));
         String line;
         while ((line = br.readLine()) != null) {
-            String[] info = line.split("#");
-
+            String[] info = line.split(" # ");
+            Affix current = new Affix(info[0], info[1], info[3], info[2], info[5], info[4], info[6], info[7]);
+            affixes.add(current);
         }
         return affixes;
     }
@@ -18,7 +19,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new FileReader("utils/stopwords.txt"));
         String line;
         while ((line = br.readLine()) != null) {
-            String[] info = line.split("#");
+            String[] info = line.split(" # ");
 
         }
         return stopWords;
@@ -28,16 +29,26 @@ public class Main {
         ArrayList<Affix> affixes = Main.importAffixes();
         ArrayList<StopWord> stopWords = Main.importStopWords();
 
-        MyPage frame = new MyPage();
+        MyPage page = new MyPage();
 
-        frame.getAffixButton().addActionListener(e -> {
+        page.getAffixButton().addActionListener(e -> {
+            Main.hideIntroPage(page);
         });
 
-        frame.getStopWordButton().addActionListener(e -> {
+        page.getStopWordButton().addActionListener(e -> {
+            Main.hideIntroPage(page);
         });
 
-        frame.getInstructionsButton().addActionListener(e -> {
-            
+        page.getInstructionsButton().addActionListener(e -> {
+            Main.hideIntroPage(page);
         });
+    }
+
+    private static void hideIntroPage(MyPage page) {
+        page.getLogoPanel().setVisible(false);
+        page.getInstructionsButton().setVisible(false);
+        page.getStopWordButton().setVisible(false);
+        page.getAffixButton().setVisible(false);
+        page.getTitlePanel().setVisible(false);
     }
 }

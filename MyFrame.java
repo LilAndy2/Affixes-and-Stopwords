@@ -16,11 +16,10 @@ public class MyFrame extends JFrame {
         this.setLocationRelativeTo(null);
         this.setResizable(false);
         this.setTitle("Affixes and Stopwords");
+        this.setLayout(null);
 
         ImageIcon image = new ImageIcon("utils/images/logo.jpg");
         this.setIconImage(image.getImage());
-        setLocationRelativeTo(null);
-        setResizable(false);
 
         startColor = BACKGROUND_COLOR;
         endColor = BACKGROUND_COLOR_2;

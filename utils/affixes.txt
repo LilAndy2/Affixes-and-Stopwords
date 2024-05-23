@@ -1,0 +1,45 @@
+a # suffix # mamă # mom # mama # the mom # inflection # 'mama' is the nominative form of the Romanian word 'mamă'; it is an inflection
+abilitate # suffix # a purta # to wear # portabilitate # portability # conversion # 'portabilitate' is the noun formed from the Romanian verb "a purta"; it is a conversion
+aie # suffix # a bate # to beat # bătaie # fight # conversion # 'bătaie' is the noun formed from the Romanian verb 'a bate'; it is a conversion
+al # suffix # săptămână # week # săptămânal # weekly # inflection # 'săptămânal' is the adjective created from the Romanian noun 'săptămână'; it is an inflection
+an # suffix # gras # fat # grăsan # fatso # inflection # 'grăsan' is the augmentative form of the Romanian adjective 'gras'; it is an inflection
+anță # suffix # a consulta # to consult # consultanță # consultancy # conversion # 'consultanță' is the noun formed from the Romanian verb 'a consulta'; it is a conversion
+ar # suffix # roată # wheel # rotar # wheeler # inflection # 'rotar' is the noun showing a profession, formed from the Romanian word 'roată'; it is an inflection
+aș # suffix # copil # child # copilaș # little child # inflection # 'copilaș' is the diminutive form of the Romanian noun 'copil'; it is an inflection
+at # suffix # a arunca # to throw # aruncat # thrown # conversion # 'aruncat' is the singular masculine past participle form of the Romanian verb 'a arunca'; it is a conversion
+ată # suffix # a boteza # to baptize # botezată # baptized # conjugation # 'botezată' is the singular feminine past participle form of the Romanian verb 'a boteza'; it is a conjugation
+ate # suffix # a măsura # to measure # măsurate # measured # conjugation # 'măsurate' is the plural feminine past participle form of the Romanian verb 'a măsura'; it is a conjugation
+ați # suffix # a speria # to scare # speriați # scared # conjugation # 'speriați' is the plural masculine past participle form of the Romanian verb 'a speria'; it is a conjugation
+ă # suffix # elev # student # elevă # student # inflection # 'elevă' is the feminine form of the the Romanian noun 'elev'; it is an inflection
+ăciune # suffix # bun # good # bunăciune # goodness # conversion # 'bunăciune' is the noun formed from the Romanian adjective 'bun'; it is a conversion
+ărie # suffix # floare # flower # florărie # flower shop # inflection # 'florărie' is the noun that meaning 'place of' from the Romanian noun 'floare'; it is an inflection
+ătate # suffix # bun # good # bunătate # goodness # conversion # 'bunătate' is the noun formed from the Romanian adjective 'bun'; it is a conversion
+ător # suffix # a ajuta # to help # ajutător # helper # conversion # 'ajutător' is the noun formed from the Romanian verb 'a ajuta'; it is a conversion
+ând # suffix # a cânta # to sing # cântând # singing # conjugation # 'cântând' is the gerund form of the Romanian verb 'a cânta'; it is a conjugation
+bil # suffix # a bea # to drink # băubil # drinkable # conversion # 'băubil' is the adjective formed from the Romanian verb 'a bea'; it is a conversion
+ciune # suffix # înțelept # wise # înțelepciune # wisdom # conversion # 'înțelepciune' is the noun formed from the Romanian adjective 'înțelept'; it is a conversion
+crație # suffix # birou # office # birocrație # bureaucracy # inflection # 'birocrație' is the noun formed from the Romanian noun 'birou'; it is an inflection
+e # suffix # mamă # mom # mame # moms # inflection # 'mame' is the plural form of the Romanian noun 'mamă'; it is an inflection
+ea # suffix # gaură # hole # găurea # drilled # conversion # 'găurea' is the verb formed from the Romanian noun 'gaură'; it is a conversion
+eală # suffix # a momi # to lure # momeală # bait # conversion # 'momeală' is the noun formed from the Romanian verb 'a momi'; it is a conversion
+ean # suffix # București # Bucharest # bucureștean # from Bucharest # conversion # 'bucureștean' is the adjective that indicates origin, from the Romanian noun 'București'; it is a conversion
+eană # suffix # sat # village # săteană # from the village # conversion # 'săteană' is the feminine adjective that indicates origin, from the Romanian noun 'sat'; it is a conversion
+eancă # suffix # Moldova # Moldavia # moldoveancă # from Moldavia # conversion # 'moldoveancă' is the feminine adjective that indicates origin, from the Romanian noun 'Moldova'; it is a conversion
+easă # suffix # floare # flower # florăreasă # florist # inflection # 'florăreasă' is the profession noun formed from the Romanian noun 'floare'; it is an inflection
+ească # suffix # cer # sky # cerească # celestial # conversion # 'cerească' is the adjective of belonging formed from the Romanian noun 'cer'; it is a conversion
+eață # suffix # dulce # sweet # dulceață # sweetness # conversion # 'dulceață' is the noun formed from the Romanian adjective 'dulce'; it is a conversion
+ează # suffix # a dura # to last # durează # it lasts # conjugation # 'durează' is the third-person indicative form of the Romanian verb 'a dura'; it is a conjugation
+ei # suffix # mamă # mom # mamei # mom's # inflection # 'mamei' is the genitive form of the Romanian noun 'mamă'; it is an inflection
+el # suffix # băiat # boy # băiețel # little boy # inflection # 'băiețel' is the diminutive form of the Romanian noun 'băiat'; it is an inflection
+ență # suffix # a diferi # to differ # diferență # difference # conversion # 'diferență' is the noun formed from the Romanian verb 'a diferi'; it is a conversion
+esc # suffix # bărbat # man # bărbătesc # manly # conversion # 'bărbătesc' is the adjective formed from the Romanian noun 'bărbat'; it is a conversion
+ește # suffix # a uni # to unite # unește # unites # conjugation # 'unește' is the third-person singular present form of the Romanian verb 'a uni'; it is a conjugation
+ești # suffix # a tuși # cough # tușești # you cough # conjugation # 'tușești' is the second-person singular present form of the Romanian verb 'a tuși'; it is a conjugation
+et # suffix # ulm # elm # ulmet # elm forest # inflection # 'ulmet' is the noun that shows a group of the Romanian noun 'ulm'; it is an inflection
+ez # suffix # a lucra # to work # lucrez # I work # conjugation # 'lucrez' is the first-person singular present form of the Romanian verb 'a lucra'; it is a conjugation
+ezi # suffix # a vâna # to hunt # vânezi # you hunt # conjugation # 'vânezi' is the second-person singular present form of the Romanian verb 'a vâna'; it is a conjugation
+fobie # suffix # aer # air # aerofobie # aerophobia # inflection # 'aerofobie' is the noun formed from the Romanian noun 'aer'; it is an inflection
+grafie # suffix # carte # book # cartografie # cartography # inflection # 'cartografie' is the noun formed from the Romanian noun 'carte'; it is an inflection
+i # suffix # lup # wolf # lupi # wolves # inflection # 'lupi' is the plural form of the Romanian noun 'lup'; it is an inflection
+ic # suffix # ciclu # cycle # ciclic # cyclic # conversion # 'ciclic' is the adjective formed from the Romanian noun 'ciclu'; it is a conversion
+icesc # suffix # actor # actor # actoricesc # acting # conversion # 'actoricesc' is the adjective formed from the Romanian noun 'actor'; it is a conversion
