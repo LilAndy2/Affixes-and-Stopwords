@@ -43,3 +43,71 @@ grafie # suffix # carte # book # cartografie # cartography # inflection # 'carto
 i # suffix # lup # wolf # lupi # wolves # inflection # 'lupi' is the plural form of the Romanian noun 'lup'; it is an inflection
 ic # suffix # ciclu # cycle # ciclic # cyclic # conversion # 'ciclic' is the adjective formed from the Romanian noun 'ciclu'; it is a conversion
 icesc # suffix # actor # actor # actoricesc # acting # conversion # 'actoricesc' is the adjective formed from the Romanian noun 'actor'; it is a conversion
+icios # suffix # alb # white # albicios # whitish # inflection # 'albicios' is the augmentative form of the Romanian adjective 'alb'; it is an inflection
+ie # suffix # a se bucura # to be happy # bucurie # happiness # conversion # 'bucurie' is the noun formed from the Romanian verb 'a se bucura'; it is a conversion
+ifica # suffix # fruct # fruit # a fructifica # to fructify # conversion # 'a fructifica' is the verb formed from the Romanian noun 'fruct'; it is a conversion
+ime # suffix # opt # eight # optime # eighth # conversion # 'optime' is the noun formed from the Romanian numeral 'opt'; it is a conversion
+ind # suffix # a ieși # to go out # ieșind # going out # conjugation # 'ieșind' is the gerund form of the Romanian verb 'a ieși'; it is a conjugation
+ință # suffix # a crede # to believe # credință # belief # conversion # 'credință' is the noun indicating the state of condition, formed from the Romanian verb 'a crede'; it is a conversion
+ior # suffix # frate # brother # frățior # little brother # inflection # 'frățior' is the diminutive form of the Romanian noun 'frate'; it is an inflection
+ism # suffix # anarhie # anarchy # anarhism # anarchism # inflection # 'anarhism' is the noun formed from the Romanian noun 'anarhie'; it is an inflection
+ist # suffix # rasă # race # rasist # racist # conversion # 'rasist' is the adjective formed from the Romanian noun 'rasă'; it is a conversion
+itate # suffix # frate # brother # fraternitate # brotherhood # inflection # 'fraternitate' is the noun formed from the Romanian noun 'frate'; it is an inflection
+itudine # suffix # cert # certain # certitudine # certainty # conversion # 'certitudine' is the noun formed from the Romanian adjective 'cert'; it is a conversion
+iță # suffix # fată # girl # fetiță # little girl # inflection # 'fetiță' is the diminutive form of the Romanian noun 'fată'; it is an inflection
+iu # suffix # aur # gold # auriu # golden # conversion # 'auriu' is the adjective formed from the Romanian noun 'aur'; it is a conversion
+iune # suffix # defect # defect # defecțiune # malfunction # inflection # 'defecțiune' is the noun formed from the Romanian noun 'defect'; it is an inflection
+iv # suffix # sport # sport # sportiv # athlete # inflection # 'sportiv' is the noun formed from the Romanian noun 'sport'; it is an inflection
+iza # suffix # fertil # fertile # a fertiliza # to fertilize # conversion # 'a fertiliza' is the verb formed from the Romanian adjective 'fertil'; it is a conversion
+î # suffix # ură # hate # a urî # to hate # conversion # 'a urî' is the infinitive verb formed from the Romanian noun 'ură'; it is a conversion
+l # suffix # tată # father # tatăl # the father # inflection # 'tatăl' is the nominative form of the Romanian word 'tată'; it is an inflection
+lor # suffix # nume # names # numelor # names' # inflection # 'numelor' is the genitive form of the Romanian noun 'nume'; it is an inflection
+le # suffix # zi # day # zile # days # inflection # 'zile' is the plural form of the Romanian noun 'zi'; it is an inflection
+lei # suffix # cafea # coffee # cafelei # coffee's # inflection # 'cafelei' is the genitive form of the Romanian noun 'cafe'; it is an inflection
+lui # suffix # soare # sun # soarelui # sun's # inflection # 'soarelui' is the genitive form of the Romanian noun 'soare'; it is an inflection
+manie # suffix # muzică # music # muzicomanie # musicomania # inflection # 'muzicomanie' is the noun formed from the Romanian noun 'muzică'; it is an inflection
+mânt # suffix  # a jura # to vow # jurământ # vow # conversion # 'jurământ' is the noun formed from the Romanian verb 'a jura'; it is a conversion
+metru # suffix # amper # ampere # ampermetru # ammeter # inflection # 'ampermetru' is the noun formed from the Romanian noun 'amper'; it is an inflection
+nomie # suffix # taxă # tax # taxonomie # taxonomy # inflection # 'taxonomie' is the noun formed from the Romanian noun 'taxă'; it is an inflection
+o # suffix # mamă # mum # mamo # mum! # inflection # 'mamo' is the vocative form of the Romanian noun 'mamă'; it is an inflection
+oaică # suffix # vulpe # fox # vulpoaică # vixen # inflection # 'vulpoaică' is a feminine form for the Romanian noun 'vulpe'; it is an inflection
+oaie # suffix # casă # house # căsoaie # big house # inflection # 'căsoaie' is the augmentative form of the Romanian noun 'casă'; it is an inflection
+oare # suffix # rece # cold # răcoare # coldness # conversion # 'răcoare' is the noun formed from the Romanian adverb 'rece'; it is a conversion
+oi # suffix # piatră # rock # pietroi # boulder # inflection # 'pietroi' is the augmentative form of the Romanian noun 'piatră'; it is an inflection
+os # suffix # gust # taste # gustos # tasty # conversion # 'gustos' is the adjective formed from the Romanian noun 'gust'; it is a conversion
+re # suffix # a traduce # to translate # traducere # translation # conversion # 'traducere' is the noun formed from the Romanian verb 'a traduce'; it is a conversion
+sprezece # suffix # cinci # five # cincisprezece # fifteen # inflection # 'cincisprezece' is the numeral formed from the Romanian numeral 'cinci'; it is an inflection
+șor # suffix # pui # chick # puișor # little chick # inflection # 'puișor' is the diminutive form of the Romanian noun 'pui'; it is an inflection
+tate # suffix # greu # hard # greutate # hardness # conversion # 'greutate' is the noun formed from the Romanian adjective 'greu'; it is a conversion
+tor # suffix # a uimi # to amaze # uimitor # amazing # conversion # 'uimitor' is the adjective formed from the Romanian verb 'a uimi'; it is a conversion
+tură # suffix # a lovi # to hit # lovitură # hit # conversion # 'lovitură' is the noun formed from the Romanian verb 'a lovi'; it is a conversion
+ție # suffix # a circula # to circulate # circulație # circulation # conversion # 'circulație' is the noun formed from the Romanian verb 'a circula'; it is a conversion
+țiune # suffix # a decora # to decor # decorațiune # decoration # conversion # 'decorațiune' is the noun formed from the Romanian verb 'a decora'; it is a conversion
+ua # suffix # stea # star # steaua # the star # inflection # 'steaua' is the nominative form of the Romanian noun 'stea'; it is an inflection
+uleț # suffix # urs # bear # ursuleț # little bear # inflection # 'ursuleț' is the diminutive form of the Romanian noun 'urs'; it is an inflection
+ului # suffix # băiat # boy # băiatului # boy's # inflection # 'băiatului' is the genitive form of the Romanian noun 'băiat'; it is an inflection
+ură # suffix # ars # burnt # arsură # burning # conversion # 'arsură' is the noun formed from the Romanian adjective 'ars'; it is a conversion
+uri # suffix # gând # thought # gânduri # thoughts # inflection # 'gânduri' is the plural form of the Romanian noun 'gând'; it is an inflection
+uș # suffix # măgar # donkey # măgăruș # little donkey # inflection # 'măgăruș' is the diminutive form of the Romanian noun 'măgar'; it is an inflection
+ușcă # suffix # rață # duck # rățușcă # little duck # inflection # 'rățușcă' is the diminutive form of the Romanian noun 'rață'; it is an inflection
+ut # suffix # a pierde # to lose # pierdut # lost # conjugation # 'pierdut' is the singular masculine past participle form of the Romanian verb 'a pierde'; it is a conjugation
+uț # suffix # mic # small # micuț # tiny # inflection # 'micuț' is the diminutive form of the Romanian adjective 'mic'; it is an inflection
+agro # prefix # aliment # food # agroalimentar # agro-food # conversion # 'agroalimentar' is the adjective formed from the Romanian noun 'aliment'; it is a conversion
+alt # prefix # cineva # someone # altcineva # someone else # inflection # 'altcineva' is the pronoun formed from the Romanian pronoun 'cineva'; it is an inflection
+ante # prefix # braț # arm # antebraț # forearm # inflection # 'antebraț' is the noun formed from the Romanian noun 'braț'; it is an inflection
+anti # prefix # erou # hero # antierou # antihero # inflection # 'antierou' is the noun formed from the Romanian noun 'erou'; it is an inflection
+arhi # prefix # plin # full # arhiplin # packed # inflection # 'arhiplin' is the adjective formed from the Romainan adjective 'plin'; it is an inflection
+astro # prefix # fizică # physics # astrofizică # astrophysics # inflection # 'astrofizică' is the noun formed from the Romanian noun 'fizică'; it is an inflection
+des # prefix # a face # to make # a desface # to unpack # inflection # 'a desface' is the verb formed from the Romanian verb 'a face'; it is an inflection
+dez # prefix # a ambala # to pack # a dezambala # to unpack # inflection # 'a dezambala' is the verb formed from teh Romanian verb 'a ambala'; it is an inflection
+în # prefix # ființă # being # a înființa # to create # conversion # 'a înființa' is the verb formed from the Romanian noun 'ființă'; it is a conversion
+kilo # prefix # gram # gram # kilogram # kilogram # inflection # 'kilogram' is the noun formed from the Romanian noun 'gram'; it is an inflection
+mili # prefix # metru # metre # milimetru # millimetre # inflection # 'milimetru' is the noun formed from the Romanian noun 'metru'; it is an inflection
+ne # prefix # atent # careful # neatent # careless # inflection # 'neatent' is the adjective formed from the Romanian adjective 'atent'; it is an inflection
+pre # prefix # a vedea # to see # a prevedea # to foresee # inflection # 'a prevedea' is the verb formed from the Romanian verb 'a vedea'; it is an inflection
+prea # prefix # a mări # to enlarge # a preamări # to glorify # inflection # 'a preamări' is the verb formed from the Romanian verb 'a mări'; it is an inflection
+răs # prefix # cruce # cross # răscruce # crossroad # inflection # 'răscruce' is the noun formed from the Romanian noun 'cruce'; it is an inflection
+re # prefix # a face # to make # a reface # to remake # inflection # 'a reface' is the verb formed from the Romanian verb 'a face'; it is an inflection
+stră # prefix # bunic # grandfather # străbunic # great grandfather # inflection # 'străbunic' is the noun formed from the Romanian noun 'bunic'; it is an inflection
+sub # prefix # braț # arm # subraț # armpit # inflection # 'subraț' is the noun formed from the Romanian noun 'braț'; it is an inflection
+vice # prefix # președinte # president # vicepreședinte # vice-president # inflection # 'vicepreședinte' is the noun formed from the Romanian noun 'președinte'; it is an inflection
