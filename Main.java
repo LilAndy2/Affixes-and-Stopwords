@@ -20,7 +20,8 @@ public class Main {
         String line;
         while ((line = br.readLine()) != null) {
             String[] info = line.split(" # ");
-
+            StopWord current = new StopWord(info[0], info[1], info[2], info[3]);
+            stopWords.add(current);
         }
         return stopWords;
     }

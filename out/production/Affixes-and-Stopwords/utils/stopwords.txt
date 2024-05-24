@@ -1,0 +1,279 @@
+acea # that # Acea carte este a mea. # That book is mine.
+aceasta # this # Aceasta este casa mea. # This is my house.
+această # this # Această mașină este nouă. # This car is new.
+aceea # that # Aceea este sora mea. # That is my sister.
+acei # those # Acei băieți sunt prietenii mei. # Those boys are my friends.
+aceia # those # Aceia sunt colegii mei. # Those are my colleagues.
+acel # that # Acel om este doctor. # That man is a doctor.
+acela # that # Acela este fratele meu. # That is my brother.
+acele # those # Acele fete sunt inteligente. # Those girls are smart.
+acelea # those # Acelea sunt notele mele. # Those are my grades.
+acest # this # Acest copil este al meu. # This child is mine.
+acesta # this # Acesta este telefonul meu. # This is my phone.
+aceste # these # Aceste flori sunt frumoase. # These flowers are beautiful.
+acestea # these # Acestea sunt cărțile tale. # These are your books.
+aceşti # these # Aceşti copii sunt veseli. # These children are happy.
+aceştia # these # Aceştia sunt profesorii mei. # These are my teachers.
+acolo # there # Vom merge acolo mâine. # We will go there tomorrow.
+acord # agreement # Am ajuns la un acord. # We reached an agreement.
+acum # now # Trebuie să plec acum. # I have to leave now.
+ai # you have # Ai făcut tema? # Have you done your homework?
+aia # that # Aia e problema ta. # That is your problem.
+aibă # have # Sper să aibă succes. # I hope they have success.
+aici # here # Sunt aici pentru tine. # I am here for you.
+al # the # Al lui este mai mare. # His is bigger.
+ăla # that # Îmi place ăla. # I like that one.
+ale # the # Ale mele sunt pierdute. # Mine are lost.
+alea # those # Alea sunt pantofii tăi. # Those are your shoes.
+ălea # those # Îți plac ălea? # Do you like those?
+altceva # something else # Vrei altceva? # Do you want something else?
+altcineva # someone else # A sunat altcineva. # Someone else called.
+am # I have # Am văzut filmul. # I have seen the movie.
+ar # would # Ar putea veni. # He might come.
+are # has # El are o pisică. # He has a cat.
+aş # I would # Aş vrea să merg. # I would like to go.
+aşadar # therefore # Aşadar, ce facem? # Therefore, what do we do?
+asemenea # such # Asemenea lucruri nu se fac. # Such things are not done.
+asta # this # Asta este soluția. # This is the solution.
+ăsta # this # Îmi place ăsta. # I like this one.
+astăzi # today # Astăzi este luni. # Today is Monday.
+astea # these # Astea sunt regulile. # These are the rules.
+ăstea # these # Îți plac ăstea? # Do you like these?
+ăştia # these # Ăştia sunt colegii mei. # These are my colleagues.
+asupra # upon # Am reflectat asupra problemei. # I have reflected upon the issue.
+aţi # you have # Aţi văzut filmul? # Have you seen the movie?
+au # they have # Ei au plecat. # They have left.
+avea # have # Sper să aveți o zi bună. # I hope you have a good day.
+avem # we have # Avem o problemă. # We have a problem.
+aveţi # you have # Aveţi timp? # Do you have time?
+azi # today # Azi este marți. # Today is Tuesday.
+bine # well # Mă simt bine. # I feel well.
+bucur # joy # Îmi bucur de vacanță. # I enjoy the vacation.
+bună # good # Bună dimineața! # Good morning!
+ca # like # E ca tine. # It's like you.
+că # that # Știu că ești acolo. # I know that you are there.
+căci # for # Rămâi căci plouă. # Stay for it is raining.
+când # when # Când ai venit? # When did you come?
+care # which # Care este al tău? # Which is yours?
+cărei # whose # A cărei carte este aceasta? # Whose book is this?
+căror # whose # Căror copii le-ai dat? # To whose children did you give?
+cărui # whose # Al cărui copil este acesta? # Whose child is this?
+cât # how much # Cât costă? # How much does it cost?
+câte # how many # Câte mere ai? # How many apples do you have?
+câţi # how many # Câţi ani ai? # How many years do you have?
+către # to # Merge către școală. # He is going to school.
+câtva # some # Am mâncat câtva. # I ate some.
+caut # search # Caut cheia. # I search for the key.
+ce # what # Ce faci? # What are you doing?
+cel # the # Cel mai bun. # The best.
+ceva # something # Vrei ceva? # Do you want something?
+chiar # even # Chiar și tu poți face asta. # Even you can do this.
+cinci # five # Am cinci prieteni. # I have five friends.
+când # when # Nu ştiu când va veni. # I don't know when he will come.
+cine # who # Cine este acolo? # Who is there?
+cineva # someone # Cineva m-a sunat azi-dimineaţă. # Someone called me this morning.
+cât # how much # Nu ştiu cât costă această carte. # I don't know how much this book costs.
+câte # how many # Câte mere ai cumpărat? # How many apples did you buy?
+câţi # how many (plural) # Câţi ani ai? # How old are you?
+câtva # some # Am câtva timp liber să vorbesc cu tine. # I have some free time to talk to you.
+contra # against # Sunt împotriva acestui proiect. # I am against this project.
+cu # with # Voi merge cu tine la magazin. # I will go with you to the store.
+cum # how # Cum te simţi astăzi? # How are you feeling today?
+cumva # somehow # Cumva am reuşit să termin proiectul la timp. # Somehow I managed to finish the project on time.
+curând # soon # Voi veni curând să te vizitez. # I will come soon to visit you.
+curând # soon # Va începe curând să plouă. # It will start raining soon.
+da # yes # Da, sunt de acord cu propunerea ta. # Yes, I agree with your proposal.
+dă # give # Dă-mi te rog puţină apă. # Please give me some water.
+dacă # if # Nu ştiu dacă voi putea ajunge la timp. # I don't know if I will be able to arrive on time.
+dar # but # Vreau să merg la petrecere, dar sunt obosit. # I want to go to the party, but I am tired.
+dată # time # Este a doua dată când vizitez acest loc. # It's the second time I visit this place.
+datorită # due to # Am reuşit să termin proiectul mai devreme datorită ajutorului tău. # I managed to finish the project earlier due to your help.
+dau # give # Îi dau mereu sfaturi bune prietenului meu. # I always give good advice to my friend.
+de # of, from # Aceasta este casa de unde am crescut. # This is the house I grew up in.
+deci # so, therefore # Nu ai fost la şcoală, deci trebuie să înveţi acasă. # You didn't go to school, so you have to study at home.
+deoarece # because # Am rămas acasă deoarece am fost bolnav. # I stayed home because I was sick.
+departe # far # Am fost în vacanţă într-un loc departe de oraş. # I went on vacation to a place far from the city.
+deşi # although # Deşi era târziu, am decis să ieşim la plimbare. # Although it was late, we decided to go for a walk.
+din # from # Am cumpărat o carte din librărie. # I bought a book from the bookstore.
+dinaintea # before # Trebuie să ajungem la aeroport dinaintea orei 10. # We need to get to the airport before 10 o'clock.
+dintr- # from (archaic) # Am auzit o poveste interesantă dintr-o bătrână. # I heard an interesting story from an old woman.
+dintre # among # Alege o carte dintre cele expuse pe raft. # Choose a book among those displayed on the shelf.
+doi # two # Am doi fraţi mai mari decât mine. # I have two older brothers than me.
+doilea # second # Acesta este doilea proiect la care lucrez. # This is the second project I am working on.
+două # two # Am cumpărat două mere de la piaţă. # I bought two apples from the market.
+drept # right (direction), straight # Mergi drept până la sfârşitul străzii. # Go straight until the end of the street.
+după # after # Voi veni după tine la şcoală. # I will come after you to school.
+ea # she # Ea este cea mai bună prietenă a mea. # She is my best friend.
+ei # they (masculine) # Ei vor merge la film astăzi seară. # They will go to the movies tonight.
+el # he # El este profesorul meu de matematică. # He is my math teacher.
+ele # they (feminine) # Ele sunt surorile mele mai mici. # They are my younger sisters.
+eram # I was # Eram la mall când m-ai sunat. # I was at the mall when you called me.
+este # is # Acesta este cel mai bun restaurant din oraş. # This is the best restaurant in town.
+eşti # you are # Eşti un prieten foarte bun. # You are a very good friend.
+eu # I # Eu sunt cel care a câştigat concursul. # I am the one who won the contest.
+face # to do, to make # El face mereu lucruri interesante. # He always does interesting things.
+fără # without # Nu pot să trăiesc fără prietenii mei. # I can't live without my friends.
+fata # girl # Fata care cântă este foarte talentată. # The girl who sings is very talented.
+fi # to be # Acesta va fi primul meu interviu de angajare. # This will be my first job interview.
+fie # let it be, whether # Fie ce-o fi, voi merge înainte. # Whatever happens, I will move forward.
+fiecare # each # Fiecare student trebuie să îşi pregătească tema. # Each student must prepare their homework.
+fii # be (imperative, singular) # Fii atent la ce spune profesorul. # Be attentive to what the teacher says.
+fim # be (imperative, plural) # Fim cu toţii prezenţi la şedinţă. # Let's all be present at the meeting.
+fiţi # be (imperative, plural/formal) # Fiţi amabili cu colegii voştri. # Be kind to your colleagues.
+fiu # son # Fiul meu este foarte inteligent. # My son is very intelligent.
+frumos # beautiful # Azi este un frumos răsărit. # Today there is a beautiful sunrise.
+graţie # thanks # Grație pentru ajutorul tău, am terminat tema. # Thanks to your help, I finished my homework.
+halbă # jug # Halba de bere este goală. # The jug of beer is empty.
+iar # and # M-am dus la piață, iar el a rămas acasă. # I went to the market, and he stayed home.
+ieri # yesterday # Am mers la teatru ieri. # I went to the theater yesterday.
+îi # him/her # Îi voi spune totul. # I will tell him/her everything.
+îl # him # L-am văzut azi. # I saw him today.
+îmi # to me # Îmi place cum arată această cameră. # I like how this room looks.
+împotriva # against # Luptăm împotriva discriminării. # We fight against discrimination.
+în # in # Am crescut într-un mic oraș. # I grew up in a small town.
+înainte # before # Am sosit înainte de tine. # I arrived before you.
+înaintea # before # A venit înaintea orei stabilite. # He came before the appointed time.
+încât # so that # Am pregătit totul înainte, încât să nu fie nicio întârziere. # I prepared everything in advance, so that there would be no delay.
+încotro # where # Nu știu încotro să o iau. # I don't know where to go.
+între # between # El este între cei doi copaci. # He is between the two trees.
+întrucât # since # Nu m-am dus la petrecere, întrucât eram bolnav. # I didn't go to the party, since I was sick.
+îţi # to you # Îți mulțumesc pentru ajutor. # Thank you for your help.
+la # at # Ne vedem la școală. # See you at school.
+lângă # near # Staționez lângă parc. # I park near the park.
+le # them # Le-am spus să vină mai târziu. # I told them to come later.
+li # to them # Li-am dat cadouri copiilor. # I gave gifts to the children.
+lângă # near # Casele sunt amplasate lângă râu. # The houses are located near the river.
+lor # their # Am văzut bicicletele lor. # I saw their bicycles.
+lui # to him # I-am dat lui cartea. # I gave him the book.
+mă # me # Mă numesc Maria. # My name is Maria.
+mai # more # Vreau mai multe mere. # I want more apples.
+mâine # tomorrow # Ne vedem mâine. # See you tomorrow.
+mea # mine (feminine) # Cărțile acestea sunt ale mele. # These books are mine.
+mei # mine (masculine plural) # Florile sunt mele. # The flowers are mine.
+mele # mine (feminine plural) # Pantofii aceștia sunt ai mei. # These shoes are mine.
+mereu # always # Ea este mereu punctuală. # She is always punctual.
+meu # mine (masculine) # Bicicleta aceasta este a mea. # This bicycle is mine.
+mi # to me # Mi-am luat o cafea. # I got myself a coffee.
+mie # to me # Să îmi spui când ajungi. # Tell me when you arrive.
+mâine # tomorrow # Mâine este ziua mea. # Tomorrow is my birthday.
+mine # mine # Aceste cărți sunt mine. # These books are mine.
+mult # much # Am mâncat mult. # I ate a lot.
+multă # much # Avem multă muncă de făcut. # We have much work to do.
+mulți # many # Am mulți prieteni. # I have many friends.
+mulțumesc # thank you # Mulțumesc pentru ajutor. # Thank you for your help.
+ne # us # Ne vedem la cinema. # See you at the movies.
+nevoie # need # Am nevoie de ajutorul tău. # I need your help.
+nicăieri # nowhere # Nu găsesc cheile nicăieri. # I can't find the keys anywhere.
+nici # neither/nor # Nu vreau nici cafea, nici ceai. # I want neither coffee nor tea.
+nimeni # no one # Nimeni nu a venit la petrecere. # No one came to the party.
+nimeri # to hit # Am nimerit țintă. # I hit the target.
+nimic # nothing # Nu am auzit nimic. # I haven't heard anything.
+niște # some # Am cumpărat niște mere. # I bought some apples.
+noastră # ours (feminine) # Această casă este a noastră. # This house is ours.
+noastre # ours (feminine plural) # Masinile sunt ale noastre. # The cars are ours.
+noi # we # Noi mergem la plajă. # We are going to the beach.
+noroc # luck # Îți doresc mult noroc la examen! # I wish you good luck on your exam!
+noștri # ours (masculine plural) # Acesta este câinele nostru. # This is our dog.
+nostru # ours (masculine) # Acest lucru este al nostru. # This thing is ours.
+nouă # us # Nouă ne place să călătorim. # We like to travel.
+nu # no # Nu vreau să merg acolo. # I don't want to go there.
+opt # eight # Au fost opt persoane la petrecere. # There were eight people at the party.
+ori # times # Am fost acolo de mai multe ori. # I've been there many times.
+oricând # anytime # Poți veni oricând. # You can come anytime.
+oricare # whichever # Alege oricare carte. # Choose whichever book.
+oricât # however much # Primește oricât vrea. # He gets however much he wants.
+orice # anything # Pot să fac orice. # I can do anything.
+oricând # anytime # Suntem deschiși oricând. # We are open anytime.
+oricine # anyone # Poate veni oricine. # Anyone can come.
+oricât # however much # Primește oricât dorește. # He receives however much he wants.
+oricum # anyway # Oricum, nu mă intersează. # Anyway, I am not interested.
+oriunde # wherever # Vreau să merg oriunde în lume. # I want to go wherever in the world.
+până # until # Aștept până la ora șase. # I'll wait until six o'clock.
+patra # fourth # Aceasta este a patra carte pe care am citit-o în această săptămână. # This is the fourth book I've read this week.
+patru # four # Am patru mere în coș. # I have four apples in the basket.
+patrulea # fourth # Clădirea patrulea este cea mai înaltă din oraș. # The fourth building is the tallest in the city.
+pe # on # Stătea pe marginea drumului. # He was standing on the edge of the road.
+pentru # for # Fac asta pentru tine. # I'm doing this for you.
+peste # over # Podul trece peste râu. # The bridge goes over the river.
+pic # bit # Te rog, spune-mi un pic despre tine. # Please, tell me a bit about yourself.
+până # until # Nu te ridica de aici până nu termini temele. # Don't get up from here until you finish your homework.
+poate # maybe # Poate că mâine va fi mai bine. # Maybe tomorrow will be better.
+pot # can # Pot să te ajut cu aceasta. # I can help you with this.
+prea # too # Ai pus prea mult zahăr în cafea. # You put too much sugar in the coffee.
+prima # first # Aceasta este prima oară când mergem la mare împreună. # This is the first time we're going to the sea together.
+primul # first # A fost primul care a ajuns la destinație. # He was the first one to reach the destination.
+prin # through # Trecem prin pădure să ajungem la cabană. # We're passing through the forest to get to the cabin.
+puțin # little # Mai adaugă puțină apă în oală. # Add a little more water to the pot.
+puțina # little # Ea are puțină experiență în domeniu. # She has little experience in the field.
+puțină # little # Îmi place să citesc puțină poezie înainte de culcare. # I like to read a little poetry before bed.
+rog # please # Te rog să mă ajuți cu aceasta. # Please help me with this.
+sa # his/her # Am văzut casa sa în fotografie. # I saw his/her house in the picture.
+să # to # Am fost la munte să facem drumeții. # We went to the mountains to hike.
+săi # his # Aceștia sunt săi. # These are his.
+sale # his/her # Aceasta este mașina sale. # This is his/her car.
+șapte # seven # Am șapte cărți pe care vreau să le citesc vara aceasta. # I have seven books I want to read this summer.
+șase # six # Orașul are șase parcuri mari. # The city has six big parks.
+sau # or # Poți alege între roșu sau albastru. # You can choose between red or blue.
+său # his/her # Văd cărțile său pe birou. # I see his/her books on the desk.
+se # himself/herself # El se spală pe dinți în fiecare dimineață. # He brushes his teeth every morning.
+și # and # El și ea sunt prieteni buni. # He and she are good friends.
+sunt # am # Sunt în parc acum. # I am in the park now.
+suntem # we are # Suntem colegi de muncă. # We are coworkers.
+sunteți # you are # Sunteți așteptați la întâlnire. # You are expected at the meeting.
+spate # back # Îmi doare spatele de la atâta stat în fața calculatorului. # My back hurts from sitting in front of the computer for so long.
+spre # toward # Mergem spre munte. # We are heading toward the mountain.
+știu # know # Știu că trebuie să mergem mai departe. # I know we need to move forward.
+sub # under # Păsările zboară sub cerul albastru. # The birds fly under the blue sky.
+sunt # am # Sunt fericit să te văd. # I am happy to see you.
+suntem # we are # Suntem bucuroși că ai venit. # We are glad you came.
+sunteți # you are # Sunteți invitați la petrecere. # You are invited to the party.
+sută # hundred # Trebuie să faci o sută de flotări în fiecare zi. # You have to do a hundred push-ups every day.
+ta # your # Aceasta este casa ta. # This is your house.
+tăi # yours # Aceștia sunt pantofii tăi. # These are your shoes.
+tale # your # Vreau să văd fotografiile tale de vacanță. # I want to see your holiday photos.
+tău # your # Acesta este telefonul tău. # This is your phone.
+te # you # Te rog să vii la întâlnire. # Please come to the meeting.
+ți # you # Îți mulțumesc pentru ajutor. # Thank you for your help.
+ție # to you # Aceasta este pentru tine. # This is for you.
+timp # time # Nu am timp să stau pe gânduri. # I don't have time to hesitate.
+tine # you # Sunt mândru de tine. # I am proud of you.
+toată # all # Toată lumea știe despre asta. # Everyone knows about it.
+toate # all # Am spălat toate hainele. # I washed all the clothes.
+tot # all # Totul este bine când se termină cu bine. # All's well that ends well.
+toți # all # Toți copiii s-au distrat la petrecere. # All the children had fun at the party.
+totuși # yet # Este greu, totuși nu imposibil. # It's hard, yet not impossible.
+trei # three # Am trei frați mai mari. # I have three older brothers.
+treia # third # Aceasta este treia oară când încerc. # this is the third time I try.
+treilea # third # El a fost al treilea care a ajuns la destinație. # He was the third one to arrive at the destination.
+tu # you # Tu ești cel mai bun prieten al meu. # You are my best friend.
+un # a/an # Am văzut un câine pe stradă. # I saw a dog on the street.
+una # one (feminine) # Am cumpărat o carte nouă. # I bought a new book.
+unde # where # Nu știu unde este restaurantul. # I don't know where the restaurant is.
+undeva # somewhere # Am uitat cheile undeva în casă. # I forgot the keys somewhere in the house.
+unei # of a/an (feminine) # Am dat o carte unei prietene. # I gave a book to a friend.
+uneia # to one (feminine) # I-am dat flori uneia dintre colege. # I gave flowers to one of the colleagues.
+unele # some # Am cumpărat unele fructe de la piață. # I bought some fruits from the market.
+uneori # sometimes # Uneori prefer să stau acasă în loc să ies. # Sometimes I prefer to stay home instead of going out.
+unii # some (plural masculine) # Unii dintre elevi au absentat azi. # Some of the students were absent today.
+unor # to some (plural) # Le-am dat sfaturi unor prieteni. # I gave advice to some friends.
+unora # to some (plural) # Le-am trimis invitații unora dintre colegi. # I sent invitations to some of the colleagues.
+unora # to some (plural) # Le-am trimis invitații unora dintre colegi. # I sent invitations to some of the colleagues.
+unu # one (masculine) # Unu dintre câini este alb. # One of the dogs is white.
+unui # to one (masculine) # I-am trimis un cadou unui prieten. # I sent a gift to a friend.
+unuia # to one (masculine) # Am dat un cadou unuia dintre colegi. # I gave a gift to one of the colleagues.
+unul # one (masculine) # Unul dintre păsări cântă frumos. # One of the birds sings beautifully.
+vă # you (plural, formal) # Vă rog să așteptați un moment. # Please wait a moment.
+vi # you (plural, informal) # Vi se pare că este o idee bună? # Do you think it's a good idea?
+voastră # yours (plural, formal) # Această casă este a voastră. # This house is yours.
+voastre # yours (plural, formal) # Aceste cărți sunt voastre. # These books are yours.
+voi # you (plural, informal) # Voi sunteți prietenii mei cei mai buni. # You are my best friends.
+voştri # your (plural, informal) # Voi sunteți frații mei cei mai apropiați, deci toate cadourile sunt voștri. # You are my closest brothers, so all the gifts are yours.
+vostru # yours (plural, informal) # Acesta este telefonul vostru. # This is your phone.
+vouă # to you (plural, formal) # Vouă vă mulțumesc pentru ajutor. # I thank you for your help.
+vreme # time # În vremea mea, această tradiție nu exista. # In my time, this tradition didn't exist.
+vreo # any # Ai vreo idee despre ce vorbim? # Do you have any idea what we're talking about?
+vreun # any (masculine) # Ai vreun prieten care poate să ne ajute? # Do you have any friend who can help us?
+zece # ten # A fost o zi lungă și am mers aproximativ zece kilometri. # It was a long day, and we walked about ten kilometers.
+zero # zero # Rezultatul testului a fost zero. # The test result was zero.
+zi # day # Astăzi este o zi frumoasă de primăvară. # Today is a beautiful spring day.
+zice # says # El zice că va veni la întâlnire. # He says he will come to the meeting.
