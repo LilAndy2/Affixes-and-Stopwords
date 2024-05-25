@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 import static helpers.Constants.Colors.BUTTON_BACKGROUND;
 import static helpers.Constants.Colors.BUTTON_BORDER;
+import static helpers.Constants.Colors.ANSI_RED;
+import static helpers.Constants.Colors.ANSI_RESET;
 
 public class MyPage {
     ////////////////////////////// ATTRIBUTES //////////////////////////////
@@ -305,7 +307,15 @@ public class MyPage {
         this.exampleLemmaLabel.setText("Example Lemma: " + affixes.get(currentIndexAffixes).getExampleLemma());
         this.exampleLemmaRomanianLabel.setText("Example Lemma in Romanian: " + affixes.get(currentIndexAffixes).getExampleLemmaRomanian());
         this.exampleWithAffixLabel.setText("Example with affix: " + affixes.get(currentIndexAffixes).getExampleWithAffix());
-        this.exampleWithAffixRomanianLabel.setText("Example with affix in Romanian: " + affixes.get(currentIndexAffixes).getExampleWithAffixRomanian());
+
+        int wordLength = affixes.get(currentIndexAffixes).getAffix().length() - 1;
+        String myWord = affixes.get(currentIndexAffixes).getExampleWithAffixRomanian();
+        String firstPart = myWord.substring(0, myWord.length() - wordLength);
+        String secondPart = myWord.substring(myWord.length() - wordLength);
+
+        String htmlText = String.format("<html>Example with affix in Romanian: %s<font color='red'>%s</font></html>", firstPart, secondPart);
+        this.exampleWithAffixRomanianLabel.setText(htmlText);
+
         this.morphologicalProcessLabel.setText("Morphological Process: " + affixes.get(currentIndexAffixes).getMorphologicalProcess());
         this.exampleExplanationLabel.setText("<html><body style='width: 550px'>Example Explanation:<br>" + affixes.get(currentIndexAffixes).getExampleExplanation()
                 + "</body></html>");
@@ -358,7 +368,13 @@ public class MyPage {
         this.exampleWithAffixPanel.add(this.exampleWithAffixLabel, BorderLayout.WEST); // Align the label to the left
 
         /* Example with affix in Romanian */
-        this.exampleWithAffixRomanianLabel = new JLabel("Example with affix in Romanian: " + affixes.getFirst().getExampleWithAffixRomanian());
+        int wordLength = affixes.getFirst().getAffix().length() - 1;
+        String myWord = affixes.getFirst().getExampleWithAffixRomanian();
+        String firstPart = myWord.substring(0, myWord.length() - wordLength);
+        String secondPart = myWord.substring(myWord.length() - wordLength);
+
+        String htmlText = String.format("<html>Example with affix in Romanian: %s<font color='red'>%s</font></html>", firstPart, secondPart);
+        this.exampleWithAffixRomanianLabel = new JLabel(htmlText);
         this.exampleWithAffixRomanianLabel.setForeground(Color.BLACK);
         this.exampleWithAffixRomanianLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
