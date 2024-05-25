@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 import static helpers.Constants.Colors.BUTTON_BACKGROUND;
@@ -24,7 +22,6 @@ public class MyPage {
     private ArrayList<Affix> affixes;
     private int currentIndex = 0;
     private JButton backButton;
-    private JLabel titleLabel;
     private JPanel affixTitle;
     private JPanel affixInfo;
     private JButton nextButton;
@@ -64,9 +61,6 @@ public class MyPage {
     ////////////////////////////// CONSTRUCTOR //////////////////////////////
 
     ////////////////////////////// GETTERS AND SETTERS //////////////////////////////
-    public MyFrame getFrame() {
-        return frame;
-    }
     public JPanel getLogoPanel() {
         return logoPanel;
     }
@@ -85,9 +79,6 @@ public class MyPage {
     public JButton getBackButton() {
         return backButton;
     }
-    public JLabel getTitleLabel() {
-        return titleLabel;
-    }
     public JPanel getAffixTitle() {
         return affixTitle;
     }
@@ -100,54 +91,6 @@ public class MyPage {
     public JButton getPreviousButton() {
         return previousButton;
     }
-    public JLabel getAffixLabel() {
-        return affixLabel;
-    }
-    public JPanel getAffixPanel() {
-        return affixPanel;
-    }
-    public JLabel getTypeLabel() {
-        return typeLabel;
-    }
-    public JPanel getTypePanel() {
-        return typePanel;
-    }
-    public JLabel getExampleLemmaLabel() {
-        return exampleLemmaLabel;
-    }
-    public JPanel getExampleLemmaPanel() {
-        return exampleLemmaPanel;
-    }
-    public JLabel getExampleLemmaRomanianLabel() {
-        return exampleLemmaRomanianLabel;
-    }
-    public JPanel getExampleLemmaRomanianPanel() {
-        return exampleLemmaRomanianPanel;
-    }
-    public JLabel getExampleWithAffixLabel() {
-        return exampleWithAffixLabel;
-    }
-    public JPanel getExampleWithAffixPanel() {
-        return exampleWithAffixPanel;
-    }
-    public JLabel getExampleWithAffixRomanianLabel() {
-        return exampleWithAffixRomanianLabel;
-    }
-    public JPanel getExampleWithAffixRomanianPanel() {
-        return exampleWithAffixRomanianPanel;
-    }
-    public JLabel getMorphologicalProcessLabel() {
-        return morphologicalProcessLabel;
-    }
-    public JPanel getMorphologicalProcessPanel() {
-        return morphologicalProcessPanel;
-    }
-    public JLabel getExampleExplanationLabel() {
-        return exampleExplanationLabel;
-    }
-    public JPanel getExampleExplanationPanel() {
-        return exampleExplanationPanel;
-    }
 
     public void setAffixes(ArrayList<Affix> affixes) {
         this.affixes = affixes;
@@ -157,16 +100,6 @@ public class MyPage {
     ////////////////////////////// ADDITIONAL METHODS //////////////////////////////
     private void initFrame() {
         this.frame = new MyFrame();
-//        this.frame.setSize(1800, 960);
-//        this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        this.frame.setVisible(true);
-//        this.frame.setLocationRelativeTo(null);
-//        this.frame.setResizable(false);
-//        this.frame.setTitle("Affixes and Stopwords");
-//        this.frame.setLayout(null);
-//
-//        ImageIcon image = new ImageIcon("utils/images/logo.jpg");
-//        this.frame.setIconImage(image.getImage());
     }
 
     private void initTitlePanel() {
@@ -233,6 +166,7 @@ public class MyPage {
         this.initAffixesTitle();
         this.initAffixesInfo();
         this.initNavigationButtons();
+        this.currentIndex = 0;
 
         this.frame.add(this.backButton);
         this.frame.add(this.affixTitle);
@@ -243,9 +177,9 @@ public class MyPage {
         this.frame.setLayout(null);
         this.backButton.setBounds(10, 10, 100, 50);
         this.affixTitle.setBounds(600, 80, 500, 150);
-        this.affixInfo.setBounds(420, 250, 900, 500);
+        this.affixInfo.setBounds(520, 250, 900, 500);
         this.previousButton.setBounds(470,475,50,50);
-        this.nextButton.setBounds(1200,475,50,50);
+        this.nextButton.setBounds(1220,475,50,50);
     }
 
     private void initBackButton() {
@@ -253,15 +187,15 @@ public class MyPage {
     }
 
     private void initAffixesTitle() {
-        this.titleLabel = new JLabel("<html><div style='font-size: 100pt; border-bottom: solid black;'>Affixes</div></html>");
-        this.titleLabel.setVisible(true);
-        this.titleLabel.setForeground(Color.BLACK);
+        JLabel titleLabel = new JLabel("<html><div style='font-size: 100pt; border-bottom: solid black;'>Affixes</div></html>");
+        titleLabel.setVisible(true);
+        titleLabel.setForeground(Color.BLACK);
 
         this.affixTitle = new JPanel();
         this.affixTitle.setOpaque(false);
         this.affixTitle.setVisible(true);
 
-        this.affixTitle.add(this.titleLabel);
+        this.affixTitle.add(titleLabel);
     }
 
     private void initAffixesInfo() {
@@ -271,6 +205,21 @@ public class MyPage {
         this.affixInfo.setOpaque(false);
         this.affixInfo.setVisible(true);
 
+        // Set the size of each JPanel to ensure consistent spacing
+        this.affixPanel.setPreferredSize(new Dimension(900, 40));
+        this.typePanel.setPreferredSize(new Dimension(900, 40));
+        this.exampleLemmaPanel.setPreferredSize(new Dimension(900, 40));
+        this.exampleLemmaRomanianPanel.setPreferredSize(new Dimension(900, 40));
+        this.exampleWithAffixPanel.setPreferredSize(new Dimension(900, 40));
+        this.exampleWithAffixRomanianPanel.setPreferredSize(new Dimension(900, 40));
+        this.morphologicalProcessPanel.setPreferredSize(new Dimension(900, 40));
+        this.exampleExplanationPanel.setPreferredSize(new Dimension(900, 150));
+
+        // Set the layout of the affixInfo panel to BoxLayout
+        this.affixInfo.setLayout(new BoxLayout(this.affixInfo, BoxLayout.Y_AXIS));
+
+        // Add the panels to the affixInfo panel
+        this.affixInfo.add(Box.createVerticalGlue()); // Add some spacing at the top
         this.affixInfo.add(this.affixPanel);
         this.affixInfo.add(this.typePanel);
         this.affixInfo.add(this.exampleLemmaPanel);
@@ -280,15 +229,8 @@ public class MyPage {
         this.affixInfo.add(this.morphologicalProcessPanel);
         this.affixInfo.add(this.exampleExplanationPanel);
 
-        this.affixInfo.setLayout(null);
-        this.affixPanel.setBounds(80,0,150,40);
-        this.typePanel.setBounds(104,50,150,40);
-        this.exampleLemmaRomanianPanel.setBounds(95,100,500,40);
-        this.exampleLemmaPanel.setBounds(52,150,400,40);
-        this.exampleWithAffixRomanianPanel.setBounds(95,200,520,40);
-        this.exampleWithAffixPanel.setBounds(87,250,400,40);
-        this.morphologicalProcessPanel.setBounds(67,300,500,40);
-        this.exampleExplanationPanel.setBounds(93,350,800,150);
+        // Add some spacing at the bottom
+        this.affixInfo.add(Box.createVerticalGlue());
     }
 
     private void initNavigationButtons() {
@@ -297,7 +239,13 @@ public class MyPage {
         this.nextButton.setBorder(BorderFactory.createEmptyBorder());
         this.nextButton.setContentAreaFilled(false);
         this.nextButton.addActionListener(e -> {
+            if (currentIndex == this.affixes.size() - 1) {
+                currentIndex = 0;
+            } else {
+                currentIndex++;
+            }
 
+            setNewText(currentIndex);
         });
 
         ImageIcon previousIcon = new ImageIcon("utils/images/previous.png");
@@ -305,11 +253,29 @@ public class MyPage {
         this.previousButton.setBorder(BorderFactory.createEmptyBorder());
         this.previousButton.setContentAreaFilled(false);
         this.previousButton.addActionListener(e -> {
+            if (currentIndex == 0) {
+                currentIndex = this.affixes.size() - 1;
+            } else {
+                currentIndex--;
+            }
 
+            setNewText(currentIndex);
         });
 
         this.nextButton.setPreferredSize(new Dimension(80,80));
         this.previousButton.setPreferredSize(new Dimension(80,80));
+    }
+
+    private void setNewText(int currentIndex) {
+        this.affixLabel.setText("Affix: " + affixes.get(currentIndex).getAffix());
+        this.typeLabel.setText("Type: " + affixes.get(currentIndex).getType());
+        this.exampleLemmaLabel.setText("Example Lemma: " + affixes.get(currentIndex).getExampleLemma());
+        this.exampleLemmaRomanianLabel.setText("Example Lemma in Romanian: " + affixes.get(currentIndex).getExampleLemmaRomanian());
+        this.exampleWithAffixLabel.setText("Example with affix: " + affixes.get(currentIndex).getExampleWithAffix());
+        this.exampleWithAffixRomanianLabel.setText("Example with affix in Romanian: " + affixes.get(currentIndex).getExampleWithAffixRomanian());
+        this.morphologicalProcessLabel.setText("Morphological Process: " + affixes.get(currentIndex).getMorphologicalProcess());
+        this.exampleExplanationLabel.setText("<html><body style='width: 550px'>Example Explanation:<br>" + affixes.get(currentIndex).getExampleExplanation()
+                + "</body></html>");
     }
 
     private void initAffixExample() {
@@ -318,89 +284,74 @@ public class MyPage {
         this.affixLabel.setForeground(Color.BLACK);
         this.affixLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
-        this.affixPanel= new JPanel();
+        this.affixPanel = new JPanel(new BorderLayout()); // Use BorderLayout for consistent alignment
         this.affixPanel.setOpaque(false);
-        this.affixPanel.setVisible(true);
-        this.affixPanel.add(this.affixLabel);
-        /* Affix */
+        this.affixPanel.add(this.affixLabel, BorderLayout.WEST); // Align the label to the left
 
         /* Type */
         this.typeLabel = new JLabel("Type: " + affixes.getFirst().getType());
         this.typeLabel.setForeground(Color.BLACK);
         this.typeLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
-        this.typePanel = new JPanel();
+        this.typePanel = new JPanel(new BorderLayout()); // Use BorderLayout for consistent alignment
         this.typePanel.setOpaque(false);
-        this.typePanel.setVisible(true);
-        this.typePanel.add(this.typeLabel);
-        /* Type */
+        this.typePanel.add(this.typeLabel, BorderLayout.WEST); // Align the label to the left
 
         /* Example Lemma */
         this.exampleLemmaLabel = new JLabel("Example Lemma: " + affixes.getFirst().getExampleLemma());
         this.exampleLemmaLabel.setForeground(Color.BLACK);
         this.exampleLemmaLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
-        this.exampleLemmaPanel = new JPanel();
+        this.exampleLemmaPanel = new JPanel(new BorderLayout()); // Use BorderLayout for consistent alignment
         this.exampleLemmaPanel.setOpaque(false);
-        this.exampleLemmaPanel.setVisible(true);
-        this.exampleLemmaPanel.add(this.exampleLemmaLabel);
-        /* Example Lemma */
+        this.exampleLemmaPanel.add(this.exampleLemmaLabel, BorderLayout.WEST); // Align the label to the left
 
         /* Example Lemma in Romanian */
         this.exampleLemmaRomanianLabel = new JLabel("Example Lemma in Romanian: " + affixes.getFirst().getExampleLemmaRomanian());
         this.exampleLemmaRomanianLabel.setForeground(Color.BLACK);
         this.exampleLemmaRomanianLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
-        this.exampleLemmaRomanianPanel = new JPanel();
+        this.exampleLemmaRomanianPanel = new JPanel(new BorderLayout()); // Use BorderLayout for consistent alignment
         this.exampleLemmaRomanianPanel.setOpaque(false);
-        this.exampleLemmaRomanianPanel.setVisible(true);
-        this.exampleLemmaRomanianPanel.add(this.exampleLemmaRomanianLabel);
-        /* Example Lemma in Romanian */
+        this.exampleLemmaRomanianPanel.add(this.exampleLemmaRomanianLabel, BorderLayout.WEST); // Align the label to the left
 
         /* Example with affix */
         this.exampleWithAffixLabel = new JLabel("Example with affix: " + affixes.getFirst().getExampleWithAffix());
         this.exampleWithAffixLabel.setForeground(Color.BLACK);
         this.exampleWithAffixLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
-        this.exampleWithAffixPanel = new JPanel();
+        this.exampleWithAffixPanel = new JPanel(new BorderLayout()); // Use BorderLayout for consistent alignment
         this.exampleWithAffixPanel.setOpaque(false);
-        this.exampleWithAffixPanel.setVisible(true);
-        this.exampleWithAffixPanel.add(this.exampleWithAffixLabel);
-        /* Example with affix */
+        this.exampleWithAffixPanel.add(this.exampleWithAffixLabel, BorderLayout.WEST); // Align the label to the left
 
         /* Example with affix in Romanian */
         this.exampleWithAffixRomanianLabel = new JLabel("Example with affix in Romanian: " + affixes.getFirst().getExampleWithAffixRomanian());
         this.exampleWithAffixRomanianLabel.setForeground(Color.BLACK);
         this.exampleWithAffixRomanianLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
-        this.exampleWithAffixRomanianPanel = new JPanel();
+        this.exampleWithAffixRomanianPanel = new JPanel(new BorderLayout()); // Use BorderLayout for consistent alignment
         this.exampleWithAffixRomanianPanel.setOpaque(false);
-        this.exampleWithAffixRomanianPanel.setVisible(true);
-        this.exampleWithAffixRomanianPanel.add(this.exampleWithAffixRomanianLabel);
-        /* Example with affix in Romanian */
+        this.exampleWithAffixRomanianPanel.add(this.exampleWithAffixRomanianLabel, BorderLayout.WEST); // Align the label to the left
 
         /* Morphological Process */
         this.morphologicalProcessLabel = new JLabel("Morphological Process: " + affixes.getFirst().getMorphologicalProcess());
         this.morphologicalProcessLabel.setForeground(Color.BLACK);
         this.morphologicalProcessLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
-        this.morphologicalProcessPanel = new JPanel();
+        this.morphologicalProcessPanel = new JPanel(new BorderLayout()); // Use BorderLayout for consistent alignment
         this.morphologicalProcessPanel.setOpaque(false);
-        this.morphologicalProcessPanel.setVisible(true);
-        this.morphologicalProcessPanel.add(this.morphologicalProcessLabel);
-        /* Morphological Process */
+        this.morphologicalProcessPanel.add(this.morphologicalProcessLabel, BorderLayout.WEST); // Align the label to the left
 
         /* Example explanation */
-        String formattedText = "<html><body style='width: 600px'>Example Explanation:<br>" + affixes.getFirst().getExampleExplanation() + "</body></html>";
-        this.exampleExplanationLabel = new JLabel(formattedText);
+        this.exampleExplanationLabel = new JLabel("<html><body style='width: 550px'>Example Explanation:<br>" + affixes.getFirst().getExampleExplanation()
+                + "</body></html>");
         this.exampleExplanationLabel.setForeground(Color.BLACK);
         this.exampleExplanationLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
 
-        this.exampleExplanationPanel = new JPanel();
+        this.exampleExplanationPanel = new JPanel(new BorderLayout()); // Use BorderLayout for consistent alignment
         this.exampleExplanationPanel.setOpaque(false);
-        this.exampleExplanationPanel.setVisible(true);
-        this.exampleExplanationPanel.add(this.exampleExplanationLabel);
-        /* Example explanation */
+        this.exampleExplanationPanel.add(this.exampleExplanationLabel, BorderLayout.WEST); // Align the label to the left
     }
+
     ////////////////////////////// ADDITIONAL METHODS //////////////////////////////
 }
