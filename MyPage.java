@@ -20,7 +20,7 @@ public class MyPage {
 
         /* Affixes Page */
     private ArrayList<Affix> affixes;
-    private int currentIndex = 0;
+    private int currentIndexAffixes = 0;
     private JButton backButton;
     private JPanel affixTitle;
     private JPanel affixInfo;
@@ -43,6 +43,23 @@ public class MyPage {
     private JLabel exampleExplanationLabel;
     private JPanel exampleExplanationPanel;
         /* Affixes Page */
+
+        /* StopWords Page */
+    private ArrayList<StopWord> stopWords;
+    private JPanel stopWordsTitle;
+    private JButton nextButton2;
+    private JButton previousButton2;
+    private int currentIndexStopWords = 0;
+    private JPanel stopWordsInfo;
+    private JLabel stopWordLabel;
+    private JPanel stopWordPanel;
+    private JLabel stopWordRomanianLabel;
+    private JPanel stopWordRomanianPanel;
+    private JLabel stopWordSentenceLabel;
+    private JPanel stopWordSentencePanel;
+    private JLabel stopWordSentenceRomanianLabel;
+    private JPanel stopWordSentenceRomanianPanel;
+        /* StopWords Page */
     ////////////////////////////// ATTRIBUTES //////////////////////////////
 
     ////////////////////////////// CONSTRUCTOR //////////////////////////////
@@ -91,13 +108,29 @@ public class MyPage {
     public JButton getPreviousButton() {
         return previousButton;
     }
+    public JPanel getStopWordsTitle() {
+        return stopWordsTitle;
+    }
+    public JButton getNextButton2() {
+        return nextButton2;
+    }
+    public JButton getPreviousButton2() {
+        return previousButton2;
+    }
+    public JPanel getStopWordsInfo() {
+        return stopWordsInfo;
+    }
 
     public void setAffixes(ArrayList<Affix> affixes) {
         this.affixes = affixes;
     }
+    public void setStopWords(ArrayList<StopWord> stopWords) {
+        this.stopWords = stopWords;
+    }
     ////////////////////////////// GETTERS AND SETTERS //////////////////////////////
 
     ////////////////////////////// ADDITIONAL METHODS //////////////////////////////
+        /* Intro Page */
     private void initFrame() {
         this.frame = new MyFrame();
     }
@@ -160,13 +193,15 @@ public class MyPage {
 
         return button;
     }
+        /* Intro Page */
 
+        /* Affixes Page */
     public void initAffixesPage() {
         this.initBackButton();
         this.initAffixesTitle();
         this.initAffixesInfo();
-        this.initNavigationButtons();
-        this.currentIndex = 0;
+        this.initNavigationButtonsAffixes();
+        this.currentIndexAffixes = 0;
 
         this.frame.add(this.backButton);
         this.frame.add(this.affixTitle);
@@ -219,7 +254,7 @@ public class MyPage {
         this.affixInfo.setLayout(new BoxLayout(this.affixInfo, BoxLayout.Y_AXIS));
 
         // Add the panels to the affixInfo panel
-        this.affixInfo.add(Box.createVerticalGlue()); // Add some spacing at the top
+        this.affixInfo.add(Box.createVerticalGlue());
         this.affixInfo.add(this.affixPanel);
         this.affixInfo.add(this.typePanel);
         this.affixInfo.add(this.exampleLemmaPanel);
@@ -228,24 +263,22 @@ public class MyPage {
         this.affixInfo.add(this.exampleWithAffixRomanianPanel);
         this.affixInfo.add(this.morphologicalProcessPanel);
         this.affixInfo.add(this.exampleExplanationPanel);
-
-        // Add some spacing at the bottom
         this.affixInfo.add(Box.createVerticalGlue());
     }
 
-    private void initNavigationButtons() {
+    private void initNavigationButtonsAffixes() {
         ImageIcon nextIcon = new ImageIcon("utils/images/next.png");
         this.nextButton = new JButton(nextIcon);
         this.nextButton.setBorder(BorderFactory.createEmptyBorder());
         this.nextButton.setContentAreaFilled(false);
         this.nextButton.addActionListener(e -> {
-            if (currentIndex == this.affixes.size() - 1) {
-                currentIndex = 0;
+            if (currentIndexAffixes == this.affixes.size() - 1) {
+                currentIndexAffixes = 0;
             } else {
-                currentIndex++;
+                currentIndexAffixes++;
             }
 
-            setNewText(currentIndex);
+            setNewTextAffixes(currentIndexAffixes);
         });
 
         ImageIcon previousIcon = new ImageIcon("utils/images/previous.png");
@@ -253,28 +286,28 @@ public class MyPage {
         this.previousButton.setBorder(BorderFactory.createEmptyBorder());
         this.previousButton.setContentAreaFilled(false);
         this.previousButton.addActionListener(e -> {
-            if (currentIndex == 0) {
-                currentIndex = this.affixes.size() - 1;
+            if (currentIndexAffixes == 0) {
+                currentIndexAffixes = this.affixes.size() - 1;
             } else {
-                currentIndex--;
+                currentIndexAffixes--;
             }
 
-            setNewText(currentIndex);
+            setNewTextAffixes(currentIndexAffixes);
         });
 
         this.nextButton.setPreferredSize(new Dimension(80,80));
         this.previousButton.setPreferredSize(new Dimension(80,80));
     }
 
-    private void setNewText(int currentIndex) {
-        this.affixLabel.setText("Affix: " + affixes.get(currentIndex).getAffix());
-        this.typeLabel.setText("Type: " + affixes.get(currentIndex).getType());
-        this.exampleLemmaLabel.setText("Example Lemma: " + affixes.get(currentIndex).getExampleLemma());
-        this.exampleLemmaRomanianLabel.setText("Example Lemma in Romanian: " + affixes.get(currentIndex).getExampleLemmaRomanian());
-        this.exampleWithAffixLabel.setText("Example with affix: " + affixes.get(currentIndex).getExampleWithAffix());
-        this.exampleWithAffixRomanianLabel.setText("Example with affix in Romanian: " + affixes.get(currentIndex).getExampleWithAffixRomanian());
-        this.morphologicalProcessLabel.setText("Morphological Process: " + affixes.get(currentIndex).getMorphologicalProcess());
-        this.exampleExplanationLabel.setText("<html><body style='width: 550px'>Example Explanation:<br>" + affixes.get(currentIndex).getExampleExplanation()
+    private void setNewTextAffixes(int currentIndexAffixes) {
+        this.affixLabel.setText("Affix: " + affixes.get(currentIndexAffixes).getAffix());
+        this.typeLabel.setText("Type: " + affixes.get(currentIndexAffixes).getType());
+        this.exampleLemmaLabel.setText("Example Lemma: " + affixes.get(currentIndexAffixes).getExampleLemma());
+        this.exampleLemmaRomanianLabel.setText("Example Lemma in Romanian: " + affixes.get(currentIndexAffixes).getExampleLemmaRomanian());
+        this.exampleWithAffixLabel.setText("Example with affix: " + affixes.get(currentIndexAffixes).getExampleWithAffix());
+        this.exampleWithAffixRomanianLabel.setText("Example with affix in Romanian: " + affixes.get(currentIndexAffixes).getExampleWithAffixRomanian());
+        this.morphologicalProcessLabel.setText("Morphological Process: " + affixes.get(currentIndexAffixes).getMorphologicalProcess());
+        this.exampleExplanationLabel.setText("<html><body style='width: 550px'>Example Explanation:<br>" + affixes.get(currentIndexAffixes).getExampleExplanation()
                 + "</body></html>");
     }
 
@@ -352,6 +385,149 @@ public class MyPage {
         this.exampleExplanationPanel.setOpaque(false);
         this.exampleExplanationPanel.add(this.exampleExplanationLabel, BorderLayout.WEST); // Align the label to the left
     }
+        /* Affixes Page */
 
+        /* StopWords Page */
+    public void initStopWordsPage() {
+        this.initBackButton();
+        this.initStopWordsTitle();
+        this.initNavigationButtonsStopWords();
+        this.initStopWordsInfo();
+        this.currentIndexStopWords = 0;
+
+        this.frame.add(this.backButton);
+        this.frame.add(this.stopWordsTitle);
+        this.frame.add(this.nextButton2);
+        this.frame.add(this.previousButton2);
+        this.frame.add(this.stopWordsInfo);
+
+        this.frame.setLayout(null);
+        this.backButton.setBounds(10, 10, 100, 50);
+        this.stopWordsTitle.setBounds(550, 80, 600, 150);
+        this.previousButton2.setBounds(470,475,50,50);
+        this.nextButton2.setBounds(1220,475,50,50);
+        this.stopWordsInfo.setBounds(520, 250, 900, 500);
+    }
+
+    private void initStopWordsTitle() {
+        JLabel titleLabel = new JLabel("<html><div style='font-size: 100pt; border-bottom: solid black;'>Stop Words</div></html>");
+        titleLabel.setVisible(true);
+        titleLabel.setForeground(Color.BLACK);
+
+        this.stopWordsTitle = new JPanel();
+        this.stopWordsTitle.setOpaque(false);
+        this.stopWordsTitle.setVisible(true);
+
+        this.stopWordsTitle.add(titleLabel);
+    }
+
+    private void initNavigationButtonsStopWords() {
+        ImageIcon nextIcon = new ImageIcon("utils/images/next.png");
+        this.nextButton2 = new JButton(nextIcon);
+        this.nextButton2.setBorder(BorderFactory.createEmptyBorder());
+        this.nextButton2.setContentAreaFilled(false);
+        this.nextButton2.addActionListener(e -> {
+            if (currentIndexStopWords == this.stopWords.size() - 1) {
+                currentIndexStopWords = 0;
+            } else {
+                currentIndexStopWords++;
+            }
+
+            setNewTextStopWords(currentIndexStopWords);
+        });
+
+        ImageIcon previousIcon = new ImageIcon("utils/images/previous.png");
+        this.previousButton2 = new JButton(previousIcon);
+        this.previousButton2.setBorder(BorderFactory.createEmptyBorder());
+        this.previousButton2.setContentAreaFilled(false);
+        this.previousButton2.addActionListener(e -> {
+            if (currentIndexStopWords == 0) {
+                currentIndexStopWords = this.stopWords.size() - 1;
+            } else {
+                currentIndexStopWords--;
+            }
+
+            setNewTextStopWords(currentIndexStopWords);
+        });
+
+        this.nextButton2.setPreferredSize(new Dimension(80,80));
+        this.previousButton2.setPreferredSize(new Dimension(80,80));
+    }
+
+    private void setNewTextStopWords(int currentIndexStopWords) {
+        this.stopWordLabel.setText("Stop Word: " + stopWords.get(currentIndexStopWords).getStopWord());
+        this.stopWordRomanianLabel.setText("Stop Word in Romanian: " + stopWords.get(currentIndexStopWords).getStopWordRomanian());
+        this.stopWordSentenceLabel.setText("<html><body style='width: 550px'>Stop Word Sentence:<br>" +
+                stopWords.get(currentIndexStopWords).getStopWordSentence() + "</body></html>");
+        this.stopWordSentenceRomanianLabel.setText("<html><body style='width: 550px'>Stop Word Sentence in Romanian:<br>" +
+                stopWords.get(currentIndexStopWords).getStopWordSentenceRomanian() + "</body></html>");
+    }
+
+    private void initStopWordsInfo() {
+        this.initStopWordsExample();
+
+        this.stopWordsInfo = new JPanel();
+        this.stopWordsInfo.setOpaque(false);
+        this.stopWordsInfo.setVisible(true);
+
+        this.stopWordPanel.setPreferredSize(new Dimension(900, 40));
+        this.stopWordRomanianPanel.setPreferredSize(new Dimension(900, 40));
+        this.stopWordSentencePanel.setPreferredSize(new Dimension(900, 40));
+        this.stopWordSentenceRomanianPanel.setPreferredSize(new Dimension(900, 40));
+
+        this.stopWordsInfo.setLayout(new BoxLayout(this.stopWordsInfo, BoxLayout.Y_AXIS));
+
+        this.stopWordsInfo.add(Box.createVerticalGlue());
+        this.stopWordsInfo.add(this.stopWordPanel);
+        this.stopWordsInfo.add(this.stopWordRomanianPanel);
+        this.stopWordsInfo.add(this.stopWordSentencePanel);
+        this.stopWordsInfo.add(this.stopWordSentenceRomanianPanel);
+        this.stopWordsInfo.add(Box.createVerticalGlue());
+    }
+
+    private void initStopWordsExample() {
+        /* Stop Word */
+        this.stopWordLabel = new JLabel("Stop Word: " + stopWords.getFirst().getStopWord());
+        this.stopWordLabel.setForeground(Color.BLACK);
+        this.stopWordLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
+
+        this.stopWordPanel = new JPanel(new BorderLayout());
+        this.stopWordPanel.setOpaque(false);
+        this.stopWordPanel.add(this.stopWordLabel, BorderLayout.WEST);
+        /* Stop Word */
+
+        /* Stop Word Romanian */
+        this.stopWordRomanianLabel = new JLabel("Stop Word in Romanian: " + stopWords.getFirst().getStopWordRomanian());
+        this.stopWordRomanianLabel.setForeground(Color.BLACK);
+        this.stopWordRomanianLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
+
+        this.stopWordRomanianPanel = new JPanel(new BorderLayout());
+        this.stopWordRomanianPanel.setOpaque(false);
+        this.stopWordRomanianPanel.add(this.stopWordRomanianLabel, BorderLayout.WEST);
+        /* Stop Word Romanian */
+
+        /* Stop Word Sentence */
+        this.stopWordSentenceLabel = new JLabel("<html><body style='width: 550px'>Stop Word Sentence:<br>" +
+                stopWords.getFirst().getStopWordSentence() + "</body></html>");
+        this.stopWordSentenceLabel.setForeground(Color.BLACK);
+        this.stopWordSentenceLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
+
+        this.stopWordSentencePanel = new JPanel(new BorderLayout());
+        this.stopWordSentencePanel.setOpaque(false);
+        this.stopWordSentencePanel.add(this.stopWordSentenceLabel, BorderLayout.WEST);
+        /* Stop Word Sentence */
+
+        /* Stop Word Sentence Romanian */
+        this.stopWordSentenceRomanianLabel = new JLabel("<html><body style='width: 550px'>Stop Word Sentence in Romanian:<br>" +
+                stopWords.getFirst().getStopWordSentenceRomanian() + "</body></html>");
+        this.stopWordSentenceRomanianLabel.setForeground(Color.BLACK);
+        this.stopWordSentenceRomanianLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
+
+        this.stopWordSentenceRomanianPanel = new JPanel(new BorderLayout());
+        this.stopWordSentenceRomanianPanel.setOpaque(false);
+        this.stopWordSentenceRomanianPanel.add(this.stopWordSentenceRomanianLabel, BorderLayout.WEST);
+        /* Stop Word Sentence Romanian */
+    }
+        /* StopWords Page */
     ////////////////////////////// ADDITIONAL METHODS //////////////////////////////
 }

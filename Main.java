@@ -25,7 +25,7 @@ public class Main {
         String line;
         while ((line = br.readLine()) != null) {
             String[] info = line.split(" # ");
-            StopWord current = new StopWord(info[0], info[1], info[2], info[3]);
+            StopWord current = new StopWord(info[1], info[0], info[3], info[2]);
             stopWords.add(current);
         }
         return stopWords;
@@ -37,6 +37,7 @@ public class Main {
 
         MyPage page = new MyPage();
         page.setAffixes(affixes);
+        page.setStopWords(stopWords);
 
         page.getAffixButton().addActionListener(e -> {
             Main.hideIntroPage(page);
@@ -44,11 +45,14 @@ public class Main {
             page.getBackButton().addActionListener(e1 -> {
                 Main.hideAffixesPage(page);
             });
-
         });
 
         page.getStopWordButton().addActionListener(e -> {
             Main.hideIntroPage(page);
+            page.initStopWordsPage();
+            page.getBackButton().addActionListener(e1 -> {
+                Main.hideStopWordsPage(page);
+            });
         });
 
         page.getInstructionsButton().addActionListener(e -> {
@@ -79,5 +83,14 @@ public class Main {
         page.getAffixInfo().setVisible(false);
         page.getNextButton().setVisible(false);
         page.getPreviousButton().setVisible(false);
+    }
+
+    private static void hideStopWordsPage(MyPage page) {
+        Main.showIntroPage(page);
+        page.getBackButton().setVisible(false);
+        page.getStopWordsTitle().setVisible(false);
+        page.getNextButton2().setVisible(false);
+        page.getPreviousButton2().setVisible(false);
+        page.getStopWordsInfo().setVisible(false);
     }
 }
