@@ -8,6 +8,11 @@ public class Main {
         String line;
         while ((line = br.readLine()) != null) {
             String[] info = line.split(" # ");
+            if (info[1].equals("suffix")) {
+                info[0] = "-" + info[0];
+            } else if (info[1].equals("prefix")) {
+                info[0] = info[0] + "-";
+            }
             Affix current = new Affix(info[0], info[1], info[3], info[2], info[5], info[4], info[6], info[7]);
             affixes.add(current);
         }
@@ -31,9 +36,15 @@ public class Main {
         ArrayList<StopWord> stopWords = Main.importStopWords();
 
         MyPage page = new MyPage();
+        page.setAffixes(affixes);
 
         page.getAffixButton().addActionListener(e -> {
             Main.hideIntroPage(page);
+            page.initAffixesPage();
+            page.getBackButton().addActionListener(e1 -> {
+                Main.hideAffixesPage(page);
+            });
+
         });
 
         page.getStopWordButton().addActionListener(e -> {
@@ -51,5 +62,22 @@ public class Main {
         page.getStopWordButton().setVisible(false);
         page.getAffixButton().setVisible(false);
         page.getTitlePanel().setVisible(false);
+    }
+
+    private static void showIntroPage(MyPage page) {
+        page.getLogoPanel().setVisible(true);
+        page.getInstructionsButton().setVisible(true);
+        page.getStopWordButton().setVisible(true);
+        page.getAffixButton().setVisible(true);
+        page.getTitlePanel().setVisible(true);
+    }
+
+    private static void hideAffixesPage(MyPage page) {
+        Main.showIntroPage(page);
+        page.getBackButton().setVisible(false);
+        page.getAffixTitle().setVisible(false);
+        page.getAffixInfo().setVisible(false);
+        page.getNextButton().setVisible(false);
+        page.getPreviousButton().setVisible(false);
     }
 }
