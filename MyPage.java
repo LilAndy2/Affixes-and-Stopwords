@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 import static helpers.Constants.Colors.BUTTON_BACKGROUND;
 import static helpers.Constants.Colors.BUTTON_BORDER;
-import static helpers.Constants.Colors.ANSI_RED;
-import static helpers.Constants.Colors.ANSI_RESET;
 
 public class MyPage {
     ////////////////////////////// ATTRIBUTES //////////////////////////////
@@ -62,6 +60,11 @@ public class MyPage {
     private JLabel stopWordSentenceRomanianLabel;
     private JPanel stopWordSentenceRomanianPanel;
         /* StopWords Page */
+
+        /* Instructions Page */
+    private JPanel instructionsTitle;
+    private JPanel instructionsText;
+        /* Instructions Page */
     ////////////////////////////// ATTRIBUTES //////////////////////////////
 
     ////////////////////////////// CONSTRUCTOR //////////////////////////////
@@ -121,6 +124,12 @@ public class MyPage {
     }
     public JPanel getStopWordsInfo() {
         return stopWordsInfo;
+    }
+    public JPanel getInstructionsTitle() {
+        return instructionsTitle;
+    }
+    public JPanel getInstructionsText() {
+        return instructionsText;
     }
 
     public void setAffixes(ArrayList<Affix> affixes) {
@@ -311,7 +320,7 @@ public class MyPage {
         int wordLength = affixes.get(currentIndexAffixes).getAffix().length() - 1;
         String myWord = affixes.get(currentIndexAffixes).getExampleWithAffixRomanian();
 
-        String htmlText = "", firstPart = "", secondPart = "";
+        String htmlText = "", firstPart, secondPart;
         if (affixes.get(currentIndexAffixes).getType().equals("suffix")) {
             firstPart = myWord.substring(0, myWord.length() - wordLength);
             secondPart = myWord.substring(myWord.length() - wordLength);
@@ -385,7 +394,7 @@ public class MyPage {
         int wordLength = affixes.getFirst().getAffix().length() - 1;
         String myWord = affixes.getFirst().getExampleWithAffixRomanian();
 
-        String htmlText = "", firstPart = "", secondPart = "";
+        String htmlText = "", firstPart, secondPart;
         if (affixes.getFirst().getType().equals("suffix")) {
             firstPart = myWord.substring(0, myWord.length() - wordLength);
             secondPart = myWord.substring(myWord.length() - wordLength);
@@ -574,5 +583,62 @@ public class MyPage {
         /* Stop Word Sentence Romanian */
     }
         /* StopWords Page */
+
+        /* Instructions Page */
+    public void initInstructionsPage() {
+        this.initBackButton();
+        this.initInstructionsTitle();
+        this.initInstructionsText();
+
+        this.frame.add(this.backButton);
+        this.frame.add(this.instructionsTitle);
+        this.frame.add(this.instructionsText);
+
+        this.frame.setLayout(null);
+        this.backButton.setBounds(10, 10, 100, 50);
+        this.instructionsTitle.setBounds(550, 80, 600, 150);
+        this.instructionsText.setBounds(400, 250, 900, 500);
+    }
+
+    private void initInstructionsTitle() {
+        JLabel titleLabel = new JLabel("<html><div style='font-size: 100pt; border-bottom: solid black;'>Instructions</div></html>");
+        titleLabel.setVisible(true);
+        titleLabel.setForeground(Color.BLACK);
+
+        this.instructionsTitle = new JPanel();
+        this.instructionsTitle.setOpaque(false);
+        this.instructionsTitle.setVisible(true);
+
+        this.instructionsTitle.add(titleLabel);
+    }
+
+    private void initInstructionsText() {
+        String instructionsText = """
+                <html><p>Welcome to the Affixes and Stop Words Application! Here you</p>\
+                <p>will learn more about how the Romanian Grammar works.</p>
+                <p></p>
+                <p>On the intro page, each of the buttons will show you information</p>\
+                <p>for either Romanian affixes or stop words. A translation in english</p>\
+                <p>will also be available, for further clearance.</p>
+                <p></p>
+                <p>______________________________________________________</p>
+                <p></p>
+                <p>References: </p>
+                <p>https://en.wiktionary.org/wiki/Category:Romanian_suffixes</p>
+                <p>https://en.wiktionary.org/wiki/Category:Romanian_prefixes</p>
+                <p>https://www.ranks.nl/stopwords/romanian</p>
+                """;
+
+        JLabel text = new JLabel(instructionsText);
+        text.setOpaque(false);
+        text.setForeground(Color.BLACK);
+        text.setFont(new Font("Times New Roman", Font.BOLD, 30));
+
+        this.instructionsText = new JPanel();
+        this.instructionsText.setOpaque(false);
+        this.instructionsText.setVisible(true);
+        this.instructionsText.add(text);
+    }
+        /* Instructions Page */
     ////////////////////////////// ADDITIONAL METHODS //////////////////////////////
 }

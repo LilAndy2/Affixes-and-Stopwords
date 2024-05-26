@@ -57,6 +57,10 @@ public class Main {
 
         page.getInstructionsButton().addActionListener(e -> {
             Main.hideIntroPage(page);
+            page.initInstructionsPage();
+            page.getBackButton().addActionListener(e1 -> {
+                Main.hideInstructionsPage(page);
+            });
         });
     }
 
@@ -92,5 +96,12 @@ public class Main {
         page.getNextButton2().setVisible(false);
         page.getPreviousButton2().setVisible(false);
         page.getStopWordsInfo().setVisible(false);
+    }
+
+    private static void hideInstructionsPage(MyPage page) {
+        Main.showIntroPage(page);
+        page.getBackButton().setVisible(false);
+        page.getInstructionsTitle().setVisible(false);
+        page.getInstructionsText().setVisible(false);
     }
 }
