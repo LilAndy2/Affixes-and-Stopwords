@@ -310,10 +310,24 @@ public class MyPage {
 
         int wordLength = affixes.get(currentIndexAffixes).getAffix().length() - 1;
         String myWord = affixes.get(currentIndexAffixes).getExampleWithAffixRomanian();
-        String firstPart = myWord.substring(0, myWord.length() - wordLength);
-        String secondPart = myWord.substring(myWord.length() - wordLength);
 
-        String htmlText = String.format("<html>Example with affix in Romanian: %s<font color='red'>%s</font></html>", firstPart, secondPart);
+        String htmlText = "", firstPart = "", secondPart = "";
+        if (affixes.get(currentIndexAffixes).getType().equals("suffix")) {
+            firstPart = myWord.substring(0, myWord.length() - wordLength);
+            secondPart = myWord.substring(myWord.length() - wordLength);
+            htmlText = String.format("<html>Example with affix in Romanian: %s<font color='red'>%s</font></html>", firstPart, secondPart);
+        } else if (affixes.get(currentIndexAffixes).getType().equals("prefix")) {
+            if (affixes.get(currentIndexAffixes).getExampleWithAffixRomanian().charAt(0) == 'a' &&
+                    affixes.get(currentIndexAffixes).getExampleWithAffixRomanian().charAt(1) == ' ') {
+                firstPart = myWord.substring(2, wordLength + 2);
+                secondPart = myWord.substring(wordLength + 2);
+                htmlText = String.format("<html>Example with affix in Romanian: a <font color='red'>%s</font>%s</html>", firstPart, secondPart);
+            } else {
+                firstPart = myWord.substring(0, wordLength);
+                secondPart = myWord.substring(wordLength);
+                htmlText = String.format("<html>Example with affix in Romanian: <font color='red'>%s</font>%s</html>", firstPart, secondPart);
+            }
+        }
         this.exampleWithAffixRomanianLabel.setText(htmlText);
 
         this.morphologicalProcessLabel.setText("Morphological Process: " + affixes.get(currentIndexAffixes).getMorphologicalProcess());
@@ -370,10 +384,25 @@ public class MyPage {
         /* Example with affix in Romanian */
         int wordLength = affixes.getFirst().getAffix().length() - 1;
         String myWord = affixes.getFirst().getExampleWithAffixRomanian();
-        String firstPart = myWord.substring(0, myWord.length() - wordLength);
-        String secondPart = myWord.substring(myWord.length() - wordLength);
 
-        String htmlText = String.format("<html>Example with affix in Romanian: %s<font color='red'>%s</font></html>", firstPart, secondPart);
+        String htmlText = "", firstPart = "", secondPart = "";
+        if (affixes.getFirst().getType().equals("suffix")) {
+            firstPart = myWord.substring(0, myWord.length() - wordLength);
+            secondPart = myWord.substring(myWord.length() - wordLength);
+            htmlText = String.format("<html>Example with affix in Romanian: %s<font color='red'>%s</font></html>", firstPart, secondPart);
+        } else if (affixes.getFirst().getType().equals("prefix")) {
+            if (affixes.getFirst().getExampleWithAffixRomanian().charAt(0) == 'a' &&
+                    affixes.getFirst().getExampleWithAffixRomanian().charAt(1) == ' ') {
+                firstPart = myWord.substring(2, wordLength + 2);
+                secondPart = myWord.substring(wordLength + 2);
+                htmlText = String.format("<html>Example with affix in Romanian: a <font color='red'>%s</font>%s</html>", firstPart, secondPart);
+            } else {
+                firstPart = myWord.substring(0, wordLength);
+                secondPart = myWord.substring(wordLength);
+                htmlText = String.format("<html>Example with affix in Romanian: <font color='red'>%s</font>%s</html>", firstPart, secondPart);
+            }
+        }
+
         this.exampleWithAffixRomanianLabel = new JLabel(htmlText);
         this.exampleWithAffixRomanianLabel.setForeground(Color.BLACK);
         this.exampleWithAffixRomanianLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
