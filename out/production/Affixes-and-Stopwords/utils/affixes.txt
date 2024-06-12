@@ -1,7 +1,7 @@
 a # suffix # mamă # mom # mama # the mom # inflection # 'mama' is the nominative form of the Romanian word 'mamă'; it is an inflection
 abilitate # suffix # a purta # to wear # portabilitate # portability # conversion # 'portabilitate' is the noun formed from the Romanian verb "a purta"; it is a conversion
 aie # suffix # a bate # to beat # bătaie # fight # conversion # 'bătaie' is the noun formed from the Romanian verb 'a bate'; it is a conversion
-al # suffix # săptămână # week # săptămânal # weekly # inflection # 'săptămânal' is the adjective created from the Romanian noun 'săptămână'; it is an inflection
+al # suffix # săptămână # week # săptămânal # weekly # conversion # 'săptămânal' is the adjective created from the Romanian noun 'săptămână'; it is a conversion
 an # suffix # gras # fat # grăsan # fatso # inflection # 'grăsan' is the augmentative form of the Romanian adjective 'gras'; it is an inflection
 anță # suffix # a consulta # to consult # consultanță # consultancy # conversion # 'consultanță' is the noun formed from the Romanian verb 'a consulta'; it is a conversion
 ar # suffix # roată # wheel # rotar # wheeler # inflection # 'rotar' is the noun showing a profession, formed from the Romanian word 'roată'; it is an inflection
