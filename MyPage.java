@@ -621,6 +621,8 @@ public class MyPage {
                 <p>for either Romanian affixes or stop words. A translation in english</p>\
                 <p>will also be available, for further clearance.</p>
                 <p></p>
+                <p>NOTE: In Romanian, the derivation process is called "conversion".</p>
+                <p></p>
                 <p>______________________________________________________</p>
                 <p></p>
                 <p>References: </p>

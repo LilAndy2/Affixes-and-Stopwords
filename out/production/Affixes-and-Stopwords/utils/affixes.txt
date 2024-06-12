@@ -6,7 +6,7 @@ an # suffix # gras # fat # grăsan # fatso # inflection # 'grăsan' is the augme
 anță # suffix # a consulta # to consult # consultanță # consultancy # conversion # 'consultanță' is the noun formed from the Romanian verb 'a consulta'; it is a conversion
 ar # suffix # roată # wheel # rotar # wheeler # inflection # 'rotar' is the noun showing a profession, formed from the Romanian word 'roată'; it is an inflection
 aș # suffix # copil # child # copilaș # little child # inflection # 'copilaș' is the diminutive form of the Romanian noun 'copil'; it is an inflection
-at # suffix # a arunca # to throw # aruncat # thrown # conversion # 'aruncat' is the singular masculine past participle form of the Romanian verb 'a arunca'; it is a conversion
+at # suffix # a arunca # to throw # aruncat # thrown # conjugation # 'aruncat' is the singular masculine past participle form of the Romanian verb 'a arunca'; it is a conjugation
 ată # suffix # a boteza # to baptize # botezată # baptized # conjugation # 'botezată' is the singular feminine past participle form of the Romanian verb 'a boteza'; it is a conjugation
 ate # suffix # a măsura # to measure # măsurate # measured # conjugation # 'măsurate' is the plural feminine past participle form of the Romanian verb 'a măsura'; it is a conjugation
 ați # suffix # a speria # to scare # speriați # scared # conjugation # 'speriați' is the plural masculine past participle form of the Romanian verb 'a speria'; it is a conjugation
